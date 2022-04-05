@@ -15,3 +15,12 @@ a:hover {
     color: blue;
     background-color: black;
 }
+
+body {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: .1fr .9fr 1.2fr .1fr;
+    grid-template-rows: .5fr 2fr .5fr 10fr .5fr 2fr .5fr;
+
+}
