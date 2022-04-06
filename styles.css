@@ -12,7 +12,7 @@ html{
 }
 
 a:hover {
-    color: blue;
+    color: rgb(0, 191, 255);
     background-color: black;
 }
 
@@ -22,5 +22,24 @@ body {
     display: grid;
     grid-template-columns: .1fr .9fr 1.2fr .1fr;
     grid-template-rows: .5fr 2fr .5fr 10fr .5fr 2fr .5fr;
+}
 
+nav {
+    background-color: black;
+    text-align: right;
+    grid-row: 2/3;
+    grid-column: 2/4;
+    height: 100px;
+
+}
+nav a {
+    text-decoration: none;
+    font-size: 500%;
+    color: blue;
+}
+.logo{
+    justify-self: left;
+    height: 60%;
+    grid-row: 2/3;
+    grid-column: 2/3;
 }
