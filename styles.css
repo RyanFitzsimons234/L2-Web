@@ -20,15 +20,23 @@ body {
     width: 95%;
     margin: auto;
     display: grid;
-    grid-template-columns: .1fr .9fr 1.2fr .1fr;
+    grid-template-columns: .1fr 2.1fr .1fr;
     grid-template-rows: .5fr 2fr .5fr 6fr .5fr 2fr .5fr;
+}
+
+.gridy{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: .9fr 1.2fr;
+    grid-template-rows: 240px 240px;
 }
 
 nav {
     background-color: black;
     text-align: right;
     grid-row: 2/3;
-    grid-column: 2/4;
+    grid-column: 2/3;
     height: 100px;
 
 }
@@ -41,15 +49,15 @@ nav a {
     justify-self: left;
     height: 60%;
     grid-row: 2/3;
-    grid-column: 2/3;
+    grid-column: 2/2;
 }
 .background{
     background-color: black;
     grid-row: 4/5;
-    grid-column: 2/4;
+    grid-column: 2/3;
 }
 .contact{
     background-color: black;
     grid-row: 6/7;
-    grid-column: 2/4;
+    grid-column: 2/3;
 }
