@@ -42,8 +42,10 @@ nav {
 }
 nav a {
     text-decoration: none;
-    font-size: 500%;
+    font-size: 400%;
+    font-family: chill;
     color: blue;
+    margin: 20px;
 }
 .logo{
     justify-self: left;
@@ -65,4 +67,18 @@ nav a {
     grid-column:1/2;
     grid-row: 1/3;
     height: 480px;
+}
+.advertising{
+    color: white;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    font-size:100px;
+    
+}
+.contact{
+    color: white;
+    grid-column: 2/3;
+    grid-row: 6/7;
+    font-size:100px;
+    
 }
