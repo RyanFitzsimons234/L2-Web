@@ -82,3 +82,22 @@ nav a {
     font-size:100px;
     
 }
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    min-height: 300px;
+    grid-column: 2/3;
+    grid-row:4/7;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+ul li img {
+    width: 100%;
+}
+
