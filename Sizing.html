@@ -5,6 +5,20 @@
         Still Chill
     </title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function calculate() {
+            var data = document.getElementById("sizeData").value;
+            if (data < 35) {
+                document.getElementById("answer").innerHTML = "Your size is Small";
+            }
+            else if (data > 45) {
+                document.getElementById("answer").innerHTML = "Your size is a Large";
+            } else {
+                document.getElementById("answer").innerHTML = "Your size is a Medium";
+            }
+        }
+
+    </script>
 </head>
 <body>
 
@@ -17,5 +31,11 @@
     </nav>
     <img class=logo src="images/logo.png">
 
+    <div class="calc">
+        <h4>Waist to Shoulder Length in cm Size Calculator</h4>
+        <input type="number" name="size" id="sizeData" value="50">
+        <button type="submit" onclick="calculate()">Submit</button>
+        <p3 id="answer"></p3>
+    </div>
 
 </body>
